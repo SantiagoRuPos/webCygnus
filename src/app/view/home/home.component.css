@@ -1,0 +1,11 @@
+#baner{
+width: auto;
+height: auto;
+align-items: center;
+}
+#img{
+        text-align: center;
+    width: 1279px;
+    height: 500px;
+    max-width: 100%;
+}
