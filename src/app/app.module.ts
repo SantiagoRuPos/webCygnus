@@ -8,6 +8,7 @@ import { MenuComponent } from './view/menu/menu.component';
 import { FooterComponent } from './view/footer/footer.component';
 import { ProyectoComponent } from './view/proyecto/proyecto.component';
 import { ServiciosTecnicoComponent } from './view/servicios-tecnico/servicios-tecnico.component';
+import { Error404Component } from './errors/HTTP/error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ServiciosTecnicoComponent } from './view/servicios-tecnico/servicios-te
     MenuComponent,
     FooterComponent,
     ProyectoComponent,
-    ServiciosTecnicoComponent
+    ServiciosTecnicoComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,

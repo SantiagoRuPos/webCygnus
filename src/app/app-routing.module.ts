@@ -5,11 +5,14 @@ import {ProyectoComponent} from './view/proyecto/proyecto.component';
 import { ServiciosTecnicoComponent } from './view/servicios-tecnico/servicios-tecnico.component';
 import { HomeComponent } from './view/home/home.component';
 import { AppComponent } from './view/app/app.component';
+import { Error404Component } from "../app/errors/HTTP/error404/error404.component";
 const routes: Routes = [
   {path: 'Proyectos', component: ProyectoComponent},
   {path: 'Home', component:HomeComponent},
   {path: 'ServicioTecnico', component:ServiciosTecnicoComponent},
   {path: 'App', component:AppComponent},
+  {path: '', component:HomeComponent},
+  {path:'**',component:Error404Component},
 
 ];
 
