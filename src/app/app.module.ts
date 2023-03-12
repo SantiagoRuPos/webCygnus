@@ -10,6 +10,10 @@ import { ProyectoComponent } from './view/proyecto/proyecto.component';
 import { ServiciosTecnicoComponent } from './view/servicios-tecnico/servicios-tecnico.component';
 import { Error404Component } from './errors/HTTP/error404/error404.component';
 
+//angular material
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +22,15 @@ import { Error404Component } from './errors/HTTP/error404/error404.component';
     FooterComponent,
     ProyectoComponent,
     ServiciosTecnicoComponent,
-    Error404Component
+    Error404Component,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
+    MatGridListModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
