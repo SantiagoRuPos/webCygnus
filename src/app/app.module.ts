@@ -13,6 +13,7 @@ import { Error404Component } from './errors/HTTP/error404/error404.component';
 //angular material
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { Error501Component } from './errors/HTTP/error501/error501.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     ProyectoComponent,
     ServiciosTecnicoComponent,
     Error404Component,
+    Error501Component,
    
   ],
   imports: [
